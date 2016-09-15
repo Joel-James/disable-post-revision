@@ -1,10 +1,10 @@
-=== Disable Post Revisions ===
-Contributors: joelcj91,foxe
+=== Disable Post Revision ===
+Contributors: joelcj91,foxe,sijojoseph
 Tags: post revision, disable revision, revisions, disable auto save, auto save, page revision
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XUVWY8HUBUXY4
 Requires at least: 3.0
-Tested up to: 4.5.2
-Stable tag: 2.2.0
+Tested up to: 4.6.1
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,7 +12,7 @@ Light weight plugin to disable post revisions for selected post types to reduce 
 
 == Description ==
 
-But default WordPress use post revisions to save each post revisions in your database. If you care about the server and database usage, these post revisions may be a headache.
+But default WordPress use post revisions to save each post revisions in your database. If you care about the server and database size, these post revisions may be a headache.
 If you feel that you don't want post revision feature for a post type you can't simply disable it from settings page. But with this plugin it is very easy.
 
 = What is Disable Post Revisions? =
@@ -29,15 +29,16 @@ If you feel that you don't want post revision feature for a post type you can't 
 > - Super Light weight.<br />
 > - Completely free to use with lifetime updates.<br />
 > - Follows best WordPress coding standards.<br />
+> - Of course, available in [GitHub](https://github.com/joel-james/disable-post-revision)<br />
 >
-> [Installation](https://wordpress.org/plugins/disable-post-revisions/installation/) | [Support](http://wordpress.org/support/plugin/disable-post-revisions/) | [Screenshots](https://wordpress.org/plugins/disable-post-revisions/screenshots/)
+> [Installation](https://wordpress.org/plugins/disable-post-revision/installation/) | [Support](http://wordpress.org/support/plugin/disable-post-revision/) | [Screenshots](https://wordpress.org/plugins/disable-post-revision/screenshots/)
 
 
 **Bug Reports**
 
 Bug reports for are always welcome. [Report here](https://thefoxe.com/bug-report/).
 
-**WordPress Post Revision - More Details**
+**WordPress Post Revision - [More Details](https://codex.wordpress.org/Revisions)**
 
 If you are confused with what is post revision, [refer this page](https://codex.wordpress.org/Revisions) to know more about it.
 
@@ -46,22 +47,22 @@ If you are confused with what is post revision, [refer this page](https://codex.
 
 
 = Installing the plugin - Simple =
-1. In your WordPress admin panel, go to *Plugins > New Plugin*, search for **Disable Post Revisions** and click "*Install now*"
-2. Alternatively, download the plugin and upload the contents of `disable-post-revisions.zip` to your plugins directory, which usually is `/wp-content/plugins/`.
+1. In your WordPress admin panel, go to *Plugins > New Plugin*, search for **Disable Post Revision** and click "*Install now*"
+2. Alternatively, download the plugin and upload the contents of `disable-post-revision.zip` to your plugins directory, which usually is `/wp-content/plugins/`.
 3. Activate the plugin
 4. Go to Writing Setting tab under WordPress settings menu.
-5. Find the "Disable Post Revisions" option and select the post types from the dropdown and save.
+5. Find the "Disable Post Revision" option and select the post types from the dropdown and save.
 
 
 = Need more help? =
-Please feel free to [open a support request](http://wordpress.org/support/plugin/disable-post-revisions/).
+Please feel free to [open a support request](http://wordpress.org/support/plugin/disable-post-revision/).
 
 = Missing something? =
 If you would like to have an additional feature for this plugin, [let me know](http://thefoxe.com/support/)
 
 == Frequently Asked Questions ==
 
-= What is the use of Disable Post Revisions? =
+= What is the use of Disable Post Revision? =
 
 This simple plugin helps you to reduce your database load by disabling unwanted post revision data.
 
@@ -84,6 +85,12 @@ Bug reports are always welcome. [Report here](https://thefoxe.com/bug-report/).
 
 == Changelog ==
 
+= 1.0.1 (15/09/2016) =
+
+- Compatibility with WordPress 4.6.
+- PHP Coding standard fixes.
+- Fixed wrong stable version number.
+
 = 1.0.0 (20/05/2016) =
 
 - Initial version release.
@@ -91,6 +98,8 @@ Bug reports are always welcome. [Report here](https://thefoxe.com/bug-report/).
 
 == Upgrade Notice ==
 
-= 1.0.0 (20/05/2016) =
+= 1.0.1 (15/09/2016) =
 
-- Initial version release.
+- Compatibility with WordPress 4.6.
+- PHP Coding standard fixes.
+- Fixed wrong stable version number.
